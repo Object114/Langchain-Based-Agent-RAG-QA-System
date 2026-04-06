@@ -1,0 +1,15 @@
+{
+    "md5_path":"./md5.txt",
+    "vector_db_name":"base01",
+    "vector_db_dir":"chroma_db",
+    "max_split_len": 1000,
+    "chunk_size": 1000,
+    "chunk_overlap": 100,
+    "separators": ["\n\n", "\n", ".", "!", "?", "。", "？", "！", " ", ""],
+    "retrieve_top_k": 2,
+    "session_config": {
+        "configurable":{
+            "session_id":"user-01"
+        }
+    }
+}
