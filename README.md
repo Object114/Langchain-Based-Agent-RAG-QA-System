@@ -6,6 +6,7 @@
 一个融合 **Agent + RAG** 架构的智能问答系统的学习项目，能够基于知识库文档进行高质量问答，支持多工具调用以及自动报告生成。
 
 ## 项目结构
+'''
 Langchain-Based-Agent-RAG-QA-System/
 ├── agent/
 │ ├── react_agent.py # Agent核心逻辑
@@ -40,6 +41,7 @@ Langchain-Based-Agent-RAG-QA-System/
 ├── app.py # 项目主入口（启动可视化网页）
 ├── requirements.txt
 └── README.md
+'''
 
 ## 使用流程
 ###1. 安装依赖
